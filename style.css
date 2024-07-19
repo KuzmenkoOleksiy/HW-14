@@ -1,0 +1,50 @@
+.m {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.b {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.b:focus,
+.b:hover {
+    background-color: rgb(165, 165, 50);
+    font-weight: 550;
+}
+
+.f {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.x {
+    transition: 1s;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 154, 13);
+}
+
+.x:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(108, 203, 12);
+    box-shadow: 8px 1px 10px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+body{
+    background: rgb(219,230,64);
+    background: linear-gradient(90deg, rgba(219,230,64,1) 0%, rgba(227,231,202,1) 50%, rgba(219,230,64,1) 100%);
+}
